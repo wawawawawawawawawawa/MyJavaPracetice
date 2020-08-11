@@ -4,6 +4,7 @@ public class Node {
     public Node rand;
     public Node left;
     public Node right;
+    public Node parent;
     public Node(int data){
         this.value = data;
     }
